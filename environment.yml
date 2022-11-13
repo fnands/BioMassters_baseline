@@ -1,0 +1,13 @@
+name: BioMassters_unet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - torchgeo
+  - jupyter
+  - pip
+  - pip:
+    - wandb
+    - tqdm
+    - segmentation_models_pytorch  
